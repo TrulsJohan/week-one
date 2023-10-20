@@ -1,1 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+/*small*/
+@media (min-width: 640px) {
+
+}
+
+/*medium*/
+@media (min-width: 768px) {
+
+}
+
+/*large*/
+@media (min-width: 1024px) {
+
+}
+
+/*extra large*/
+@media (min-width: 1280px) {
+
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.icon {
+    width: 64px;
+    height: 40px;
+    margin-left: 48px;
+    margin-top: 48px;
+}
+
+.learn-more {
+    font-family: 'Lexend Deca', sans-serif;;
+    font-size: 15px;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 25px;
+    padding: 8px;
+    color: black;
+    width: 146px;
+    height: 48px;
+    margin-top: 83px;
+    margin-left: 48px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: #F2F2F2;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    margin-left: 48px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;;
+    font-size: 15px;
+    font-weight: normal;
+    color: #F2F2F2;
+    margin-left: 48px;
+}
+
+#sedans {
+    background-color: #E28625;
+    padding: 16px;
+    width: 307px;
+    height: 500px;
+    border-radius: 8px 0 0 8px;
+}
+
+#suvs {
+    background-color: #006971;
+    padding: 16px;
+    width: 307px;
+    height: 500px;
+}
+
+#luxury {
+    background-color: #004140;
+    padding: 16px;
+    width: 307px;
+    height: 500px;
+    border-radius: 0 8px 8px 0;
+}
